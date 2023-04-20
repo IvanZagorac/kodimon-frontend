@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cont{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.kodimonLogo{
+  max-width: 320px;
+  max-height:200px ;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 39%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.kodimonNatpis{
+  max-width: 570px;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+
+.newGameBtn{
+  width: 100%;
+  max-width: 170px;
+  background-color: #493DCC !important;
+  border-radius: 25px!important;
+  padding: 10px 25px 10px 25px!important;
+  position: absolute;
+  left: 50%;
+  top: 70%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+}
+
+.registerBtn{
+  margin-top: 20px;
+}
+
+.table{
+  margin-right: 30px;
+  margin-top: 80px;
+  margin-left: 0px;
+  padding-left: 0px;
+  max-width: 100%;
+}
+
+.historyBtn{
+  width: 100%;
+  max-width: 170px;
+  background-color: #493DCC !important;
+  border-radius: 25px!important;
+  padding: 10px 25px 10px 25px!important;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.welcomeIns{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.submitBtn{
+  margin-top: 10px;
+  background-color:#493DCC!important; ;
+  padding:5px!important;
+  color: white!important;
+}
+
+.error{
+  color:red;
+}
+
+.logout{
+  width: 100%;
+  max-width: 170px;
+  background-color: #493DCC !important;
+  border-radius: 25px!important;
+  padding: 10px 25px 10px 25px!important;
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.meni{
+  width: 100%;
+  height: 100vh;
+  border-left: 1px solid gray ;
+  margin-top: 40px!important;
+  margin-bottom: 40px!important;
+
+}
+
+.modalMeni{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logs{
+  margin-top: 30px!important;
+}
+
+.meniDiv{
+margin-left: 20px;
+  margin-top: 40px;
+}
+
+.modalMeniDiv{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.textCenter{
+  display: flex!important;
+  justify-content: center!important;
+  align-items: center!important;
+}
+
+.meniBtn1{
+  width: 100%;
+  max-width: 170px;
+  background-color: #493DCC !important;
+  border-radius: 25px!important;
+  padding: 10px 25px 10px 25px!important;
+
+}
+
+.meniBtn2{
+  width: 100%;
+  max-width: 170px;
+  background-color: #493DCC !important;
+  border-radius: 25px!important;
+  padding: 10px 25px 10px 25px!important;
+  margin-top: 20px;
+
+}
+.vl {
+  border-left: 1px solid gray ;
+  position: absolute;
+  top: 45%;
+  bottom: 0%;
+  right:12%;
+  height: 700px;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.attackBTN{
+  width: 100%;
+  max-width: 170px;
+  background-color: #493DCC !important;
+  border-radius: 25px!important;
+  padding: 12px 22px 12px 22px!important;
+
+}
+
+.hpPerc{
+  font-size: 16px!important;
+}
+
+.hStyle{
+  font-size: 32px;
+}
+
+.statsStyle{
+  font-size: 22px;
+}
+
+.backdrop{
+  background-color: lightgray;
+}
+
+.dFlex{
+  flex-direction: column;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.pokemonIMG{
+  max-width: 180px;
+}
+
+.message{
+  color:red;
+  font-size:23px
+}
+@media (max-width: 450px) {
+    .meniDiv{
+      margin-left: 0px;
+    }
+
+  .meniBtn1{
+    min-width: 80px;
+    text-align: center;
+    padding-right: 10px!important;
+    font-size: 13px!important;
+  }
+
+  .meniBtn2{
+    min-width: 80px;
+    text-align: center;
+    padding-right: 10px!important;
+    font-size: 13px!important;
+  }
+
+  .pokemonIMG{
+    max-width: 120px;
+  }
+
+  .kodimonLogo{
+    top: 41%;
+    max-height: 160px;
+  }
+
+  .hStyle{
+    font-size: 24px;
+  }
+
+  .statsStyle{
+    font-size: 22px;
+  }
+
+  .pStats{
+    font-size: 16px;
+  }
+}
+
+@media(max-width: 560px){
+  .meniDivv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .meniBtn1{
+    margin-top: 20px;
+    font-size: 12px!important;
+  }
+  .meniBtn2{
+    font-size: 12px!important;
+  }
+}
+
+
