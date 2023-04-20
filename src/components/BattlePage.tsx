@@ -57,7 +57,7 @@ function BattlePage (){
     }
 
     const navigateToBattle=()=>{
-        window.location.reload();
+        navigate("/battle")
     }
 
     const navigateToNewOpponent=()=>{

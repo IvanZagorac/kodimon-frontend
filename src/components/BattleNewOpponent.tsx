@@ -61,7 +61,7 @@ function BattleNewOpponent (){
     }
 
     const navigateToOwnPage=()=>{
-        window.location.reload()
+        navigate("/newOpponent")
     }
     const  navigateToHistory=()=>{
         navigate("/history")
